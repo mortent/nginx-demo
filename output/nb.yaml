@@ -23,7 +23,7 @@ http {
    server {
        listen 80;
        location / {
-           return 200 "Hei verden!";
+           return 200 "Hei universet!!!";
        }
    }
 }
@@ -45,7 +45,7 @@ spec:
         app: nginx
     spec:
       containers:
-      - image: nginx:1.26.1
+      - image: nginx:1.27.0
         name: nginx
         ports:
         - containerPort: 80
